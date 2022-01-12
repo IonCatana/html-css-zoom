@@ -1,0 +1,159 @@
+/* Inizio regola generale */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Fine regola generale */
+
+/* Inizio body */
+body{    
+    width: 100vw;        
+}
+/* Fine body */
+
+/* Inizio main */
+main{
+    padding-top: 5px;      
+    margin: 0 auto;
+    max-width: 95%;    
+    background-color: black;  
+    color: white;  
+}
+/* Fine main */
+
+/* Inizio speaker view */
+.speaker-view{
+    display: flex;
+    justify-content: flex-end;     
+    color: white;
+    font-size: 13px;
+    gap: 8px ;
+    margin: 0px 5px 80px 0px;
+}
+/* Fine speaker view */
+
+/* Inizio speaker viewers content */
+.speaker-viewers{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px 10px;    
+}
+.speaker-viewers > :first-child:hover {
+    background-image: url(img/field.jpg);
+}
+.fa-th, .fa-expand-arrows-alt{
+    background-color: rgb(90, 88, 90);
+    padding: 3px;
+    border-radius: 5px;
+}
+.fa-th:hover, .fa-expand-arrows-alt:hover{
+    background-color: rgb(70, 70, 70);
+    border-radius: 4px;
+}
+.img-testo{
+    display: flex;
+    align-items: flex-end;
+    width: 300px; 
+    height: 200px; 
+    background-image: url(img/treno.jpg);    
+}
+.img-testo p{
+    background-color: rgba(131, 131, 131, 0.5);
+    padding: 4px;    
+}
+/* Fine speaker viewers content */
+
+/* Inizio tool bar */
+.tool-bar{
+    height: 100px;
+    display: flex;    
+    justify-content: space-between;
+    margin: 30px 0px 0px 0px;    
+    background-color: rgb(59, 59, 59);
+}
+/* Fine tool bar */
+
+/* Inizio tool bar right */
+.tool-bar-right{  
+    margin-left: 10px;  
+    align-self: center;  
+    text-align: center;   
+    display: flex;  
+    gap: 20px; 
+}
+.micro:hover, .video:hover, #angle-up:hover{    
+    background-color: rgb(70, 70, 70);
+    border-radius: 4px;    
+}
+.micro, .video{
+    padding: 5px;
+    font-size: 30px;       
+}
+.micro p, .video p{
+    font-size: 16px;
+    padding: 5px;
+}
+#angle-up{
+    padding: 8px 5px;
+    font-size: 13px;
+    align-self: center; 
+}
+/* Fine tool bar right */
+
+/* Inizio tool bar center */
+.tool-bar-center{       
+    align-self: center;  
+    text-align: center;   
+    display: flex;  
+    gap: 20px;
+}
+
+.tool-bar-center p{
+    font-size: 16px;
+}
+.tool-bar-center .user-plus, .user-friend, .polling, .share, .chat, .record, .rooms, .more{
+    font-size: 30px; 
+    padding: 5px;
+}
+.user-plus:hover, .user-friend:hover, .polling:hover, .share:hover, .chat:hover, .record:hover, .rooms:hover, .more:hover{
+    background-color: rgb(70, 70, 70);
+    border-radius: 4px; 
+}
+.share{
+    color: lime;
+}
+/* Fine tool bar center */
+
+/* Inizio tool bar left */
+.tool-bar-left{  
+    display: flex;
+    justify-content: center;
+    height: 100px;    
+    align-self: center;
+    align-items: center;  
+    background-color: rgb(104, 104, 104);
+}
+.tool-bar-left p{    
+    color: red;
+    font-size: 16px;
+}
+.meeting{    
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    
+}
+.meeting:hover{    
+    background-color: rgb(70, 70, 70);
+    border-radius: 4px; 
+}
+/* Fine tool bar left */
+/* Fine tool bar */
+
+
+
